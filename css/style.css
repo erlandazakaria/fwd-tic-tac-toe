@@ -1,0 +1,80 @@
+/*******tic-tac-toe******/
+
+.flex {
+    display: flex;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.m-5 { margin: 5px;}
+.p-5 { padding: 5px;}
+
+
+#tic-tac-toe h1 {text-align:center; font-size:28px}
+.input-prepend span.pre_text {width:55px}
+.input-prepend .span1{width:93px}
+.input-prepend {margin-bottom:10px}
+.input-append .win_times {background:#fff; width:101px}
+.input-append .win_text {width:52px}
+
+.default-width {
+    min-width:226px
+}
+
+#board-number-input {
+    width: 50px;
+    height: 25px;
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+
+#game {
+    display: grid;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+.board-col {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    color:#fff;
+}
+  
+
+.disable {text-transform:uppercase; font-size:30px; font-family:Georgia, "Times New Roman", Times, serif }
+#game li {float:left; padding:0; list-style:none; text-align:center; margin-bottom:20px; color:#fff; height:60px; line-height:60px; font-size:40px; color:#ccc}
+#game li.disable{color:#fff}
+#game {float:left; padding:0; clear:both}
+
+#tic-tac-toe #reset { padding:5px 10px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:20px; clear:both; cursor:pointer; float:left; text-align:center; text-transform:uppercase; outline:none; width:204px}
+
+
+li::-moz-selection {background:none;color:#000;}
+li::-webkit-selection {background:none;color:#000;}
+/* #tic-tac-toe {min-width:220px; margin:0 auto} */
+
+/*******tic-tac-toe END******/

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Erlanda Tic Tac Toe game</title>
+        <link rel='stylesheet prefetch' href='https://getbootstrap.com/2.3.2/assets/css/bootstrap.css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <div class="flex flex-column align-center">
+                <div class="flex full flex-column align-center">
+                    <h1>Tic Tac Toe</h1>
+                    <div class="input-prepend input-append">
+                        <span class="add-on win_text">O won</span><strong id="o_win" class="win_times add-on">0</strong><span class="add-on">time(s)</span>
+                    </div>
+                    <div class="input-prepend input-append">
+                        <span class="add-on win_text">X won</span><strong id="x_win" class="win_times add-on">0</strong><span class="add-on">time(s)</span>
+                    </div>
+                    <div class="flex align-center justify-center">
+                        <div>Number of Board</div>
+                        <div class="flex justify-center align-center m-5">
+                            <input id="board-number-input" value="3" min="3" type="number" />
+                        </div>
+                    </div>
+                    <div class="flex default-width m-5">
+                        <div class="full btn btn-success" id="start">Start</div>
+                    </div>
+                </div>
+                <div id="board-container">
+                </div>
+            </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-1.7.2.min.js'></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
